@@ -38,12 +38,12 @@ Stage 2: spin up server
     [x] create a user interface with two input values
     [x] create  +, -, *, and / buttons positioned inbetween the inputs, 
         bonus: highlight currently selected operator button
-    [] create an = button after the second input. when clicked capture user input and put into an object(store in an array.)
-    [] send to server via POST
-    [] create a 'C' button that clears/empties the input fields.
+    [x] create an = button after the second input. when clicked capture user input and put into an object(store in an array.)
+    [x] send to server via POST
+    [x] create a 'C' button that clears/empties the input fields.
 
-    [] create server side logic to compute answers
-    [] send back ok (200)
+    [x] create server side logic to compute answers
+    [x] send back ok (200)
     [] GET request after POST to get the solution
 
     []Keep a reocrd of all math operation and solutions on the DOM
