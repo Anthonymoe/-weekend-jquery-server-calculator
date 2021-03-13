@@ -21,3 +21,13 @@ app.listen( port, ()=>{
 })
 
 //routes
+app.get( '/input', ( req, res )=>{
+    console.log( 'in /input GET' );
+    res.send( 'meow' );
+})//end input GET
+
+app.post( '/input', ( req, res )=>{
+    console.log( 'in /input POST:', req.body );
+    res.send( 'ribbet' );
+})//end input GET
+
