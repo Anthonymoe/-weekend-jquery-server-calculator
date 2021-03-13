@@ -35,8 +35,8 @@ Stage 2: spin up server
   },
 
   Stage 3: the LOGIC
-    [] create a user interface with two input values
-    [] create  +, -, *, and / buttons positioned inbetween the inputs, 
+    [x] create a user interface with two input values
+    [x] create  +, -, *, and / buttons positioned inbetween the inputs, 
         bonus: highlight currently selected operator button
     [] create an = button after the second input. when clicked capture user input and put into an object(store in an array.)
     [] send to server via POST
