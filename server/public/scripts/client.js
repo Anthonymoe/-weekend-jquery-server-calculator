@@ -31,8 +31,8 @@ function sendObject (){
         data: objectToSend
     }).then( function( response ){
         console.log( 'back from the POST with:', response );
-    //if successful update DOM
-    getObject();
+        //if successful update DOM
+        getObject();
     }).catch( function( err ){
     //catch any errors 
     alert( 'error adding item' );
@@ -41,7 +41,7 @@ function sendObject (){
     clear();
 }//end of calculate 
 
-function getObject(){
+function getObject(){ 
     //make a get AJAX call
     $.ajax({
         type: 'GET',
@@ -49,13 +49,18 @@ function getObject(){
     }).then( function( response ){
         console.log( 'back from GET:', response );
         //target ul and empty
-        el = $( '#infoOut' );
+        let el = $( '#infoOut' );
         el.empty();
         //if successful loop through response
         for ( let i=0; i<response.length; i++){
             //append to DOM
             el.append( `<li>${response[i].val1} ${response[i].symbol} ${response[i].val2} = ${response[i].answer}</li>`);
         }//end for
+        if ( response.length > 0 ){
+            let currentAnswer = $('#answer')
+            currentAnswer.empty();
+            currentAnswer.append( `${response[response.length -1].answer}` );
+        }//end answer to be displayed
         //catch any errors
     }).catch( function( err ){
         alert( 'error adding item' );

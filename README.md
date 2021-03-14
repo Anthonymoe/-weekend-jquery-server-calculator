@@ -4,7 +4,7 @@
 
 ## Description
 
-Your project description goes here. What problem did you solve? How did you solve it?
+For this problem I created a Server Side Calculator. In order to accomplish this task I took user inputs and POSTED them to a route in my server. When the route received new objects it used that information as arguments to calculate the solution. The information was then pushed to the DOM including the newly found solution based on the inputs. I then ran a GET request and looped through the array to append all results to the DOM. 
 
 Additional README details can be found [here](https://github.com/PrimeAcademy/readme-template/blob/master/README.md).
 
@@ -44,7 +44,7 @@ Stage 2: spin up server
 
     [x] create server side logic to compute answers
     [x] send back ok (200)
-    [] GET request after POST to get the solution
+    [x] GET request after POST to get the solution
 
-    []Keep a reocrd of all math operation and solutions on the DOM
+    [x]Keep a reocrd of all math operation and solutions on the DOM
         []**Think on this before getting started
