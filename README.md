@@ -6,7 +6,7 @@
 
 For this problem I created a Server Side Calculator. In order to accomplish this task I took user inputs and POSTED them to a route in my server. When the route received new objects it used that information as arguments to calculate the solution. The information was then pushed to the DOM including the newly found solution based on the inputs. I then ran a GET request and looped through the array to append all results to the DOM. 
 
-Additional README details can be found [here](https://github.com/PrimeAcademy/readme-template/blob/master/README.md).
+![Alt text](Screen Shot 2021-03-14 at 12.09.57 PM.png)
 
 
 #To Do
