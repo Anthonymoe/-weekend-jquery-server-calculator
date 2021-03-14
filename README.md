@@ -13,7 +13,7 @@ For this problem I created a Server Side Calculator. In order to accomplish this
 - express
 - css(barely)
 
-<img src="file:///Users/anthonymoe/Desktop/Screen%20Shot%202021-03-14%20at%2012.09.57%20PM.png" width="200" > </img>
+<img src="file:///Users/anthonymoe/Desktop/Screen%20Shot%202021-03-14%20at%2012.09.57%20PM.png" width="200" />
 
 ### Thank You
 
