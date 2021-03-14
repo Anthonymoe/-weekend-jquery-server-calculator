@@ -6,7 +6,18 @@
 
 For this problem I created a Server Side Calculator. In order to accomplish this task I took user inputs and POSTED them to a route in my server. When the route received new objects it used that information as arguments to calculate the solution. The information was then pushed to the DOM including the newly found solution based on the inputs. I then ran a GET request and looped through the array to append all results to the DOM. 
 
-![Alt text](Screen Shot 2021-03-14 at 12.09.57 PM.png)
+- HTML
+- javaScript
+- jQuery
+- node
+- express
+- css(barely)
+
+<img src="file:///Users/anthonymoe/Desktop/Screen%20Shot%202021-03-14%20at%2012.09.57%20PM.png"> </img>
+
+### Thank You
+
+Thank you to Prime Digital Academy for teaching me how
 
 
 #To Do
