@@ -13,11 +13,11 @@ For this problem I created a Server Side Calculator. In order to accomplish this
 - express
 - css(barely)
 
-<img src="file:///Users/anthonymoe/Desktop/Screen%20Shot%202021-03-14%20at%2012.09.57%20PM.png"> </img>
+<img src="file:///Users/anthonymoe/Desktop/Screen%20Shot%202021-03-14%20at%2012.09.57%20PM.png" style="width:200px;" > </img>
 
 ### Thank You
 
-Thank you to Prime Digital Academy for teaching me how
+Thank you to Prime Digital Academy for showing me the way.
 
 
 #To Do
